@@ -1,6 +1,5 @@
 # Netlify configuration for ArtVR Client
 [build]
-  base = "artvr-client"
   publish = "dist"
   command = "npm install && npm run build"
 
